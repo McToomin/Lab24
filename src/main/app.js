@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello World!')
 })
 
+app.get('/test', (req, res) => {
+    res.status(300).send('Hello Universe!')
+})
+
 app.listen(3000, () => {
     console.log('Example app listening on http://localhost:3000')
 })
