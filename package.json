@@ -1,0 +1,30 @@
+{
+  "name": "lab24",
+  "version": "1.0.0",
+  "description": "Lab24",
+  "main": "src/main/app.js",
+  "scripts": {
+    "start": "node src/main/app.js",
+    "test": "node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McToomin/Lab24.git"
+  },
+  "author": "Alex Tanner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McToomin/Lab24/issues"
+  },
+  "homepage": "https://github.com/McToomin/Lab24#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "supertest": "^4.0.2"
+  }
+}
